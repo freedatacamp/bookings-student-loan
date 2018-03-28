@@ -1,0 +1,371 @@
+{
+    "name": "brookings-crisis-in-student-loans",
+    # [A crisis in student loans? How changes in the characteristics of borrowers and in the institutions they attended contributed to rising loan defaults](https://www.brookings.edu/bpea-articles/a-crisis-in-student-loans-how-changes-in-the-characteristics-of-borrowers-and-in-the-institutions-they-attended-contributed-to-rising-loan-defaults/)
+    "resources": [
+      {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/01_first_year_new_volume.csv",
+        "path": "01_first_year_new_volume.csv",
+        "schema": {
+          "fields": [
+            {
+              "name": "var1",
+              "type": "string"
+            },
+            {
+              "name": "var2",
+              "type": "integer"
+            },
+            {
+              "name": "var3",
+              "type": "number"
+            }
+          ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/02_aggregate_new_volume_all.csv",
+        "path": "02_aggregate_new_volume_all.csv",
+        "schema": {
+            "fields": [
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/03_aggregate_fy_stocks_first.csv",
+        "path": "03_aggregate_fy_stocks_first.csv",
+        "schema": {
+            "fields": [
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/04_aggregate_fy_stocks_last.csv",
+        "path": "04_aggregate_fy_stocks_last.csv",
+        "schema": {
+            "fields": [
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/05_labormarket_outcomes_by_borrower_by_cohort.csv",
+        "path": "05_labormarket_outcomes_by_borrower_by_cohort.csv",
+        "schema": {
+            "fields": [
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/06_labormarket_outcomes_all_borrowers_in_repay.csv",
+        "path": "06_labormarket_outcomes_all_borrowers_in_repay.csv",
+        "schema": {
+            "fields": [
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/07_flows_of_borrowers.csv",
+        "path": "07_flows_of_borrowers.csv",
+        "schema": {
+            "fields": [
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/08_first_institution_balances_by_borrower.csv",
+        "path": "08_first_institution_balances_by_borrower.csv",
+        "schema": {
+            "fields": [
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/09_last_institution_balances_by_borrower.csv",
+        "path": "09_last_institution_balances_by_borrower.csv",
+        "schema": {
+            "fields": [
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/10_institution_balances_by_loan.csv",
+        "path": "10_institution_balances_by_loan.csv",
+        "schema": {
+            "fields": [
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/11_first_umbrella_institution_balances_by_borrower.csv",
+        "path": "11_first_umbrella_institution_balances_by_borrower.csv",
+        "schema": {
+            "fields": [
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/12_last_umbrella_institution_balances_by_borrower.csv",
+        "path": "12_last_umbrella_institution_balances_by_borrower.csv",
+        "schema": {
+            "fields": [
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/13_umbrella_institution_balances_by_loan.csv",
+        "path": "13_umbrella_institution_balances_by_loan.csv",
+        "schema": {
+            "fields": [
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/14_repay_outcomes_by_borrower.csv",
+        "path": "14_repay_outcomes_by_borrower.csv",
+        "schema": {
+            "fields": [
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/15_parent_repay_outcomes.csv",
+        "path": "15_parent_repay_outcomes.csv",
+        "schema": {
+            "fields": [
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/16_repay_outcomes_parent_by_loan.csv",
+        "path": "16_repay_outcomes_parent_by_loan.csv",
+        "schema": {
+            "fields": [
+                {
+                    "name": "fy",
+                    "format": "fiscal year"
+                }, {
+                    "name": "full_sample",
+                    "format": "indicator: 1==full population"
+                }, {
+                    "name": "typen",
+                    "format": "Type/control indicator: 1=2-yr for profit, 2=4-yr"
+                }, {
+                    "name": "for-profit",
+                    "format": "4= public, 6=non-profit private"
+                }, {
+                    "name": "n_borrowers",
+                    "format": "total number of borrowers"
+                }, {
+                    "name": "tot_bal",
+                    "format": "total aggregate balance owed on all loans"
+                }, {
+                    "name": "outstanding",
+                    "format": "originated at each institution type"
+                }, {
+                    "name": "r_typen1",
+                    "format": "School attended: For profit 2-year"
+                }, {
+                    "name": "r_typen2",
+                    "format": "School attended: For profit 4-year"
+                }, {
+                    "name": "r_typen4", 
+                    "format": "School attended: Public"
+                }, {
+                    "name": "r_typen6",
+                    "format": "School attended: Non-profit"
+                }, {
+                    "name": "mn_tot_bal",
+                    "format": "average total balance"
+                }, {
+                    "name": "md_tot_bal",
+                    "format": "median total balance"
+                }, {
+                    "name": "alt_cdr2",
+                    "format": "2 year default rate"
+                }, {
+                    "name": "alt_cdr3",
+                    "format": "3 year default rate"
+                }, {
+                    "name": "alt_cdr5",
+                    "format": "5 year default rate"
+                }, {
+                    "name": "replicate_cdr3",
+                    "format": "3 year cohort default rate (replication of ED method)"
+                }, {
+                    "name": "fract_repaid",
+                    "format": "fraction of loan repaid by year 5"
+                }, {
+                    "name": "f5_tot_bal",
+                    "format": "total aggregate balance at year 5"
+                }, {
+                    "name": "mn_f5_tot_bal",
+                    "format": "average balance at year 5"
+                }, {
+                    "name": "md_f5_tot_bal",
+                    "format": "median balance at year 5"
+                }, {
+                    "name": "agg_fract_repaid",
+                    "format": "aggregate fraction repaid (Cohort repayment rate)"
+                }, {
+                    "name": "cpi_adj",
+                    "format": "PCE index (to 2014)"
+                }
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/17_repay_outcomes_undergrad_by_loan.csv",
+        "path": "17_repay_outcomes_undergrad_by_loan.csv",
+        "schema": {
+            "fields": [
+                {
+                    "name": "fy",
+                    "title": "fiscal year"
+                }, {
+                    "name": "full_sample",
+                    "format": "indicator: 1==full population"
+                }, {
+                    "name": "typen",
+                    "format": "Type/control indicator: 1=2-yr for profit, 2=4-yr"
+                }, {
+                    "name": "for-profit",
+                    "format": "3=2-yr public, 4=4-yr public, 5=2-yr"
+                }, {
+                    "name": "private",
+                    "format": "6=4=yr private"
+                }, {
+                    "name": "n_borrowers",
+                    "format": "total number of borrowers"
+                }, {
+                    "name": "tot_bal",
+                    "format": "total aggregate balance owed on all loans"
+                }, {
+                    "name": "outstanding",
+                    "format": "originated at each institution type"
+                }, {
+                    "name": "r_typen1",
+                    "format": "School attended: For profit 2-year"
+                }, {
+                    "name": "r_typen2",
+                    "format": "School attended: For profit 4-year"
+                }, {
+                    "name": "r_typen3",
+                    "format": "School attended: Public 2-year"
+                }, {
+                    "name": "r_typen4",
+                    "format": "School attended: Public 4-year"
+                }, {
+                    "name": "r_typen5",
+                    "format": "School attended: Non-profit 2-year"
+                }, {
+                    "name": "r_typen6",
+                    "format": "School attended: Non-profit 4-year"
+                }, {
+                    "name": "mn_tot_bal",
+                    "format": "average total balance"
+                }, {
+                    "name": "md_tot_bal",
+                    "format": "median total balance"
+                }, {
+                    "name": "alt_cdr2",
+                    "format": "2 year default rate"
+                }, {
+                    "name": "alt_cdr3",
+                    "format": "3 year default rate"
+                }, {
+                    "name": "alt_cdr5",
+                    "format": "5 year default rate"
+                }, {
+                    "name": "replicate_cdr3",
+                    "format": "3 year cohort default rate (replication of ED method)"
+                }, {
+                    "name": "fract_repaid",
+                    "format": "fraction of loan repaid by year 5"
+                }, {
+                    "name": "f5_tot_bal total",
+                    "foramt": "aggregate balance at year 5"
+                }, {
+                    "name": "mn_f5_tot_bal",
+                    "format": "average balance at year 5"
+                }, {
+                    "name": "md_f5_tot_bal",
+                    "format": "median balance at year 5"
+                }, {
+                    "name": "agg_fract_repaid",
+                    "format": "aggregate fraction repaid (Cohort repayment rate)"
+                }, {
+                    "name": "cpi_adj",
+                    "format": "PCE index (to 2014)"
+                }
+            ]
+        }
+      }, {
+        "url": "https://www.brookings.edu/wp-content/uploads/2017/08/18_repay_outcomes_graduate_by_loan.csv",
+        "path": "18_repay_outcomes_graduate_by_loan.csv",
+        "schema": {
+            "fields": [
+                {
+                    "name": "fy",
+                    "title": "fiscal year",
+                    "type": "year"
+                }, {
+                    "name": "full_sample",
+                    "type": "boolean",
+                    "format": "indicator: 1==full population"
+                }, {
+                    "name": "typen",
+                    "type": "enum",
+                    "fomat": "Type/control indicator: 2=for-profit, 4=public, 6=non-profit",
+                }, {
+                    "name": "n_borrowers",
+                    "type": "integer",
+                    "format": "total number of borrowers"
+                }, {
+                    "name": "tot_bal",
+                    "type": "decimal",
+                    "format": "total aggregate balance owed on all loans outstanding originated at each institution type"
+                }, {
+                    "name": "r_typen2",
+                    "type": "boolean",
+                    "format": "School attended: For profit",
+                }, {
+                    "name": "r_typen4",
+                    "type": "boolean",
+                    "format": "School attended: Public"
+                }, {
+                    "name": "r_typen6",
+                    "type": "boolean",
+                    "format": "School attended: Non-profit"
+                }, {
+                    "name": "mn_tot_bal",
+                    "type": "decimal",
+                    "format": "average total balance"
+                }, {
+                    "name": "md_tot_bal",
+                    "type": "decimal",
+                    "format": "median total balance"
+                }, {
+                    "name": "alt_cdr2",
+                    "type": "float",
+                    "format": "2 year default rate"
+                }, {
+                    "name": "alt_cdr3",
+                    "type": "float",
+                    "format": "3 year default rate"
+                }, {
+                    "name": "alt_cdr5",
+                    "type": "float",
+                    "format": "5 year default rate"
+                }, {
+                    "name": "replicate_cdr3",
+                    "type": "float",
+                    "format": "3 year cohort default rate (replication of ED method)"
+                }, {
+                    "name": "fract_repaid",
+                    "type": "float",
+                    "format": "fraction of loan repaid by year 5"
+                }, {
+                    "name": "f5_tot_bal",
+                    "type": "float",
+                    "format": "total aggregate balance at year 5"
+                }, {
+                    "name": "mn_f5_tot_bal",
+                    "type": "decimal",
+                    "format": "average balance at year 5"
+                }, {
+                    "name": "md_f5_tot_bal",
+                    "type": "decimal",
+                    "format": "median balance at year 5"
+                }, {
+                    "name": "agg_fract_repaid",
+                    "type": "float",
+                    "format": "aggregate fraction rep"
+                }
+            ]
+        }
+      }
+    ]
+  }
